@@ -1,0 +1,73 @@
+body{
+    background: url('https://images.pexels.com/photos/6826293/pexels-photo-6826293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: 1365px 650px;
+}
+
+.heading{
+  margin-top: 10px;
+  font-family: Ubuntu;
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff;
+  text-align: right;
+  margin-right: 50px;
+  text-shadow: 1px 3px 20px #f5e023,
+               -1px 1px 30px #f17d1e;
+}
+
+input[type="text"]{
+    font-size: 20px;
+    font-family:Lucida Sans;
+    float: right;
+    margin-right: 240px;
+    margin-top: 30px;
+    background: #B9DFFF;
+    color:black;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    margin-top: 40px;
+    margin-left:910px;
+    background-color:#B9DFFF;
+    font-family:Lucida Sans;
+    color: rgb(2, 2, 2);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    height:30px; 
+    width: 120px;
+  }
+  
+button:hover {
+    background-color:#e2c029;
+    font-family:Lucida Sans;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#card{
+    background-color:rgb(255, 255, 255);
+    width:550px;
+    height:380px;
+    border:2px solid black;
+    margin-top: 30px;
+    margin-left: 700px;
+    font-size: 60px;
+    text-align: center;
+}
+
+#card-content{
+    margin: 15px 15px 15px 15px;
+    display:grid;
+    grid-row-gap:20px;
+    grid-column-gap:10px;
+    grid-template-columns: repeat(5, 1fr);
+    
+}
+
+#card-element{
+    width:100px;
+    height:60px;
+}
+
